@@ -4,10 +4,10 @@ using namespace std;
 int sum(int num);
 
 int main(){
-        int n;
+        int num;
         cout<< "enter the number till which you want to sum of natural number";
-        cin>>n;
-        cout << "the sum is" <<sum(n);
+        cin>>num;
+        cout << "the sum is" <<sum(num);
         return 0;
         }
 int sum(int num)
